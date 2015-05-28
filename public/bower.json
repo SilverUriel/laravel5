@@ -1,0 +1,24 @@
+{
+  "name": "Binder",
+  "version": "0.0.3",
+  "description": "Software that control warehouse",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Uriel Palomares Elias"
+  ],
+  "license": "MIT",
+  "homepage": "binder.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "bootstrap-material-design" : "~0.3.0"
+  }
+}
