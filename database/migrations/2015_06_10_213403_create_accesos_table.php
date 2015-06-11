@@ -14,7 +14,6 @@ class CreateAccesosTable extends Migration {
 	{
 		Schema::create('accesos', function(Blueprint $table)
 		{
-			$table->increments('id');
 			$table->string('nit', 50)->unique();
 			$table->string('nombre');
 			$table->timestamps();

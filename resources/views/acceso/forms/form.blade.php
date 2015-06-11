@@ -4,7 +4,7 @@
 		{!! Form::text('nombre', null, ['class'=>'form-control floating-label','placeholder' =>'Usuario:']) !!}
 	</div>
 	<div class="form-group">
-		{!! Form::text('nit', null, ['class'=>'form-control floating-label','placeholder' =>'Pin:']) !!}
+		{!! Form::password('nit', null, ['class'=>'form-control floating-label','placeholder' =>'Pin:']) !!}
 	</div>
 
 </div>  

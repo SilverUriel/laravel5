@@ -15,7 +15,9 @@ class AccesoController extends Controller {
 	 */
 	public function index()
 	{
-		//
+		$acceso = Acceso::orderBy('nombre')->paginate();
+
+		return view('acesso.index', compact('acceso'));
 	}
 
 	/**
