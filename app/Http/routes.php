@@ -13,11 +13,16 @@
 
 Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'HomeController@index');
+//Route::get('home', 'HomeController@index');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
 
-resource('acceso', 'AccesoController');
+Route::get('/campos', 'WelcomeController@index');
+
+Route::resource('acceso', 'AccesoController');
+//Route::resource('acceso/destroy','AccesoController@destroy');
+Route::get('acceso/show',  'AccesoController@show');
+//Route::post('acceso','AccesoController@store');

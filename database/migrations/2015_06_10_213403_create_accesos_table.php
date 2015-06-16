@@ -16,6 +16,7 @@ class CreateAccesosTable extends Migration {
 		{
 			$table->string('nit', 50)->unique();
 			$table->string('nombre');
+			$table->string('pass');
 			$table->timestamps();
 		});
 	}

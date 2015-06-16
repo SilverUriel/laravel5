@@ -7,7 +7,7 @@ class Acceso extends Model {
 	protected $table ='accesos';
 
 	protected $fillable = [
-	'nit', 'nombre'
+	'nit', 'nombre', 'pass'
 	];
 
 }

@@ -30,7 +30,11 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		return view('att');
 	}
 
+	public function store(Request $request)
+	{
+		return "Bienvenido al sistema";
+	}
 }
